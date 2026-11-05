@@ -691,6 +691,7 @@ namespace File {
 			[[maybe_unused]] constexpr const char* Level = "S:/theme1/menu/level.bin";
 			[[maybe_unused]] constexpr const char* Settings = "S:/theme1/menu/settings.bin";
 			[[maybe_unused]] constexpr const char* Theremin = "S:/theme1/menu/theremin.bin";
+			[[maybe_unused]] constexpr const char* Timer = "S:/theme1/menu/timer.bin";
 			[[maybe_unused]] constexpr const char* Lunar = "S:/theme1/menu/lunar.bin";
 			[[maybe_unused]] constexpr const char* Rover = "S:/theme1/menu/rover.bin";
 			[[maybe_unused]] constexpr const char* Notification = "S:/theme1/menu/notif.bin";
@@ -711,6 +712,7 @@ namespace File {
 			[[maybe_unused]] constexpr const char* Level = "S:/theme2/menu/level.bin";
 			[[maybe_unused]] constexpr const char* Settings = "S:/theme2/menu/settings.bin";
 			[[maybe_unused]] constexpr const char* Theremin = "S:/theme2/menu/theremin.bin";
+			[[maybe_unused]] constexpr const char* Timer = "S:/theme2/menu/timer.bin";
 			[[maybe_unused]] constexpr const char* Lunar = "S:/theme2/menu/lunar.bin";
 			[[maybe_unused]] constexpr const char* Rover = "S:/theme2/menu/rover.bin";
 			[[maybe_unused]] constexpr const char* Notification = "S:/theme2/menu/notif.bin";
@@ -731,6 +733,7 @@ namespace File {
 			[[maybe_unused]] constexpr const char* Level = "S:/theme3/menu/level.bin";
 			[[maybe_unused]] constexpr const char* Settings = "S:/theme3/menu/settings.bin";
 			[[maybe_unused]] constexpr const char* Theremin = "S:/theme3/menu/theremin.bin";
+			[[maybe_unused]] constexpr const char* Timer = "S:/theme3/menu/timer.bin";
 			[[maybe_unused]] constexpr const char* Lunar = "S:/theme3/menu/lunar.bin";
 			[[maybe_unused]] constexpr const char* Rover = "S:/theme3/menu/rover.bin";
 			[[maybe_unused]] constexpr const char* Notification = "S:/theme3/menu/notif.bin";
@@ -751,6 +754,7 @@ namespace File {
 			[[maybe_unused]] constexpr const char* Level = "S:/theme4/menu/level.bin";
 			[[maybe_unused]] constexpr const char* Settings = "S:/theme4/menu/settings.bin";
 			[[maybe_unused]] constexpr const char* Theremin = "S:/theme4/menu/theremin.bin";
+			[[maybe_unused]] constexpr const char* Timer = "S:/theme4/menu/timer.bin";
 			[[maybe_unused]] constexpr const char* Lunar = "S:/theme4/menu/lunar.bin";
 			[[maybe_unused]] constexpr const char* Rover = "S:/theme4/menu/rover.bin";
 			[[maybe_unused]] constexpr const char* Notification = "S:/theme4/menu/notif.bin";
@@ -771,6 +775,7 @@ namespace File {
 			[[maybe_unused]] constexpr const char* Level = "S:/theme5/menu/level.bin";
 			[[maybe_unused]] constexpr const char* Settings = "S:/theme5/menu/settings.bin";
 			[[maybe_unused]] constexpr const char* Theremin = "S:/theme5/menu/theremin.bin";
+			[[maybe_unused]] constexpr const char* Timer = "S:/theme5/menu/timer.bin";
 			[[maybe_unused]] constexpr const char* Lunar = "S:/theme5/menu/lunar.bin";
 			[[maybe_unused]] constexpr const char* Rover = "S:/theme5/menu/rover.bin";
 			[[maybe_unused]] constexpr const char* Notification = "S:/theme5/menu/notif.bin";
@@ -791,6 +796,7 @@ namespace File {
 			[[maybe_unused]] constexpr const char* Level = "S:/theme6/menu/level.bin";
 			[[maybe_unused]] constexpr const char* Settings = "S:/theme6/menu/settings.bin";
 			[[maybe_unused]] constexpr const char* Theremin = "S:/theme6/menu/theremin.bin";
+			[[maybe_unused]] constexpr const char* Timer = "S:/theme6/menu/timer.bin";
 			[[maybe_unused]] constexpr const char* Lunar = "S:/theme6/menu/lunar.bin";
 			[[maybe_unused]] constexpr const char* Rover = "S:/theme6/menu/rover.bin";
 			[[maybe_unused]] constexpr const char* Notification = "S:/theme6/menu/notif.bin";
@@ -811,6 +817,7 @@ namespace File {
 			[[maybe_unused]] constexpr const char* Level = "S:/theme7/menu/level.bin";
 			[[maybe_unused]] constexpr const char* Settings = "S:/theme7/menu/settings.bin";
 			[[maybe_unused]] constexpr const char* Theremin = "S:/theme7/menu/theremin.bin";
+			[[maybe_unused]] constexpr const char* Timer = "S:/theme7/menu/timer.bin";
 			[[maybe_unused]] constexpr const char* Lunar = "S:/theme7/menu/lunar.bin";
 			[[maybe_unused]] constexpr const char* Rover = "S:/theme7/menu/rover.bin";
 			[[maybe_unused]] constexpr const char* Notification = "S:/theme7/menu/notif.bin";
@@ -831,6 +838,7 @@ namespace File {
 			[[maybe_unused]] constexpr const char* Level = "S:/theme8/menu/level.bin";
 			[[maybe_unused]] constexpr const char* Settings = "S:/theme8/menu/settings.bin";
 			[[maybe_unused]] constexpr const char* Theremin = "S:/theme8/menu/theremin.bin";
+			[[maybe_unused]] constexpr const char* Timer = "S:/theme8/menu/timer.bin";
 			[[maybe_unused]] constexpr const char* Lunar = "S:/theme8/menu/lunar.bin";
 			[[maybe_unused]] constexpr const char* Rover = "S:/theme8/menu/rover.bin";
 			[[maybe_unused]] constexpr const char* Notification = "S:/theme8/menu/notif.bin";
@@ -851,6 +859,7 @@ namespace File {
 			[[maybe_unused]] constexpr const char* Level = "S:/theme9/menu/level.bin";
 			[[maybe_unused]] constexpr const char* Settings = "S:/theme9/menu/settings.bin";
 			[[maybe_unused]] constexpr const char* Theremin = "S:/theme9/menu/theremin.bin";
+			[[maybe_unused]] constexpr const char* Timer = "S:/theme9/menu/timer.bin";
 			[[maybe_unused]] constexpr const char* Lunar = "S:/theme9/menu/lunar.bin";
 			[[maybe_unused]] constexpr const char* Rover = "S:/theme9/menu/rover.bin";
 			[[maybe_unused]] constexpr const char* Notification = "S:/theme9/menu/notif.bin";

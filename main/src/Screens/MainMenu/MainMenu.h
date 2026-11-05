@@ -26,22 +26,36 @@ private:
 			"Connected to\niOS device"
 	};
 
+	// One name per menu slot. To add/remove an app: change this enum, the ItemInfos table below
+	// (same order!), setupItemPaths() and onClick() in MainMenu.cpp, all using these names.
+	enum Slot : uint8_t {
+		SlotFind,
+		SlotTimer,
+		SlotLunar,
+		SlotLevel,
+		SlotConnection,
+		SlotTheremin,
+		SlotSettings,
+		SlotCount
+	};
+
 	struct ItemInfo {
 		const char* labelText = nullptr;
 		const char* labelTextAlt = nullptr;
 		const char* iconPath = nullptr;
 		const char* iconAltPath = nullptr;
 	};
-	ItemInfo ItemInfos[7] = {
-			{ "Find my phone",    "Ringing phone...",                     File::Menu::Theme1::Find,       File::Menu::Theme1::Find },
-			{ "Lunar lander",	  nullptr,                  			  File::Menu::Theme1::Lunar, 	  nullptr },
-			{ "Level",            nullptr,                                File::Menu::Theme1::Level,      nullptr },
-			{ "Theremin",         nullptr,                                File::Menu::Theme1::Theremin,   nullptr },
-			{ "Phone connection", ConnDesc[(int) Phone::PhoneType::None], File::Menu::Theme1::Connection, File::Menu::Theme1::Connection },
-			{ "Rover control",	  nullptr,                                File::Menu::Theme1::Rover,   	  nullptr },
-			{ "Settings",         nullptr,                                File::Menu::Theme1::Settings,   nullptr }
+	// Order must match enum Slot above
+	ItemInfo ItemInfos[SlotCount] = {
+			{ "Find my phone",    "Ringing phone...",                     File::Menu::Theme1::Find,       File::Menu::Theme1::Find },       // SlotFind
+			{ "Timer",            nullptr,                                File::Menu::Theme1::Timer,      nullptr },                        // SlotTimer
+			{ "Lunar lander",     nullptr,                                File::Menu::Theme1::Lunar,      nullptr },                        // SlotLunar
+			{ "Level",            nullptr,                                File::Menu::Theme1::Level,      nullptr },                        // SlotLevel
+			{ "Phone connection", ConnDesc[(int) Phone::PhoneType::None], File::Menu::Theme1::Connection, File::Menu::Theme1::Connection }, // SlotConnection
+			{ "Theremin",         nullptr,                                File::Menu::Theme1::Theremin,   nullptr },                        // SlotTheremin
+			{ "Settings",         nullptr,                                File::Menu::Theme1::Settings,   nullptr }                         // SlotSettings
 	};
-	static constexpr uint8_t ItemCount = sizeof(ItemInfos) / sizeof(ItemInfos[0]);
+	static constexpr uint8_t ItemCount = SlotCount;
 	void setupItemPaths(Theme theme);
 
 	void setConnAlts();

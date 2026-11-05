@@ -1,3 +1,8 @@
+# Notice
+this repo is a fork of the official GC Artemis, which is a fork of Clockstar Firmware
+https://github.com/CircuitMess/GC_Artemis-Firmware
+https://github.com/CircuitMess/Clockstar-Firmware
+
 # Artemis Watch Firmware
 
 # Building
